@@ -12,107 +12,111 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
+    display: block;
 }
+
 body {
-  line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-  quotes: none;
+    quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
+
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*Font*/
 @font-face {
     font-family: 'klavika';
     src: url('klavikabold-webfont.woff2') format('woff2'),
-         url('klavikabold-webfont.woff') format('woff');
+    url('klavikabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-  }
-
-
+}
 
 /*Style*/
 
-body{
-	margin:0;
-	padding:0;
+body {
+    margin: 0;
+    padding: 0;
 
 }
 
-a{
-  text-decoration: none;
-    color:rgb(54, 88, 153);
+a {
+    text-decoration: none;
+    color: rgb(54, 88, 153);
 }
 
-#header
-{
-  background-color:#3C5998;
-	height: 82px;
-	width:100%;
-	font-family:tahoma;
+#header {
+    background-color: #3C5998;
+    height: 82px;
+    width: 100%;
+    font-family: tahoma;
 }
 
 /*logofb*/
-.logo{
-  font-family: klavika;
-  position:absolute;
-  font-size: 40px;
-  left:13%;
-  top:2.5%;
-  color:white;
+.logo {
+    font-family: klavika;
+    position: absolute;
+    font-size: 40px;
+    left: 13%;
+    top: 2.5%;
+    color: white;
 }
 
-.email{
-  position:absolute;
-  color:white;
-  left:55%;
-  top:2%;
-  font-size:13px;
-  font-family: Helvetica, Arial, sans-serif
+.email {
+    position: absolute;
+    color: white;
+    left: 55%;
+    top: 2%;
+    font-size: 13px;
+    font-family: Helvetica, Arial, sans-serif
 }
 
-.input{
-  position:absolute;
-  left: 55%;
-  top:5%;
+.input {
+    position: absolute;
+    left: 55%;
+    top: 5%;
 }
 
-#Content{
-  top:20px;
-  height: 600px;
-  background:linear-gradient(white, #D5DAE9);
-  font-family:Helvetica, Arial, sans-serif;
+#Content {
+    top: 20px;
+    height: 600px;
+    background: linear-gradient(white, #D5DAE9);
+    font-family: Helvetica, Arial, sans-serif;
 
 }
+
 /*tulisan kiri*/
-.left{
+.left {
     position: absolute;
     width: 55%;
     top: 90px;
@@ -125,119 +129,117 @@ a{
 }
 
 /*tulisan kanan */
-.right{
-    position:absolute;
-    top:110px;
-    left:56%;
+.right {
+    position: absolute;
+    top: 110px;
+    left: 56%;
     line-height: 20px;
 }
 
-.form{
+.form {
     position: relative;
     left: -5px;
-    background-color:white;
+    background-color: white;
     border: 1px solid #d3d5fd;
-    border-radius:5px;
-    font-family:Helvetica;
-    font-size:18px;
-    font-weight:400;
-    outline-color:#7dd8c7;
-    padding-bottom:8px;
-    padding-top:8px;
-    padding-left:10px;
-    padding-right:10px;
-    margin:6px;
+    border-radius: 5px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    outline-color: #7dd8c7;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 6px;
 }
 
 .birthtext {
-    color:#1d2129;
-    font-size:19px;
-    font-family:Helvetica;
+    color: #1d2129;
+    font-size: 19px;
+    font-family: Helvetica;
 }
 
-.birthform{
+.birthform {
 
-    background-color:white;
+    background-color: white;
     border: 1px solid #d3d5fd;
-    border-radius:0px;
-    font-family:Helvetica;
-    font-size:12px;
-    font-weight:400;
-    outline-color:rgb(77, 144, 254);
-    padding-bottom:6px;
-    padding-top:6px;
-    padding-left:8px;
-    padding-right:8px;
-    margin-top:6px;
+    border-radius: 0px;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    outline-color: rgb(77, 144, 254);
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 6px;
     margin-right: -4.3px;
 }
 
-.birthdaywhy{
-  color:rgb(54, 88, 153);
+.birthdaywhy {
+    color: rgb(54, 88, 153);
     margin-left: 5px;
-    font-family:Helvetica;
-    font-size:11px;
-    width:150px;
+    font-family: Helvetica;
+    font-size: 11px;
+    width: 150px;
 
 }
 
-.gender{
-  color:rgb(29, 33, 41);
-  font-family:Helvetica, Arial, sans-serif;
-  font-size:15px;
-  font-weight:400;
-  padding-left:3px;
-  padding-right:10px;
-  margin-top:30px;
+.gender {
+    color: rgb(29, 33, 41);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 3px;
+    padding-right: 10px;
+    margin-top: 30px;
 }
 
-.term{
-  color:rgb(119, 119, 119);
-  display:block;
-  font-family:Helvetica, Arial, sans-serif;
-  font-size:10px;
-  margin-top:10px;
-  margin-bottom:10px;
-  width:305px;
-  line-height: 15px;
+.term {
+    color: rgb(119, 119, 119);
+    display: block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 305px;
+    line-height: 15px;
 }
 
-.btnsignup{
-  font-size:18px;
-  background-color:rgb(105, 167, 78);
-  border:1px solid rgb(59, 110, 34);
-  color:white;
-  padding:10px;
-  width:194px;
-  text-align:center;
-  font-weight:700;
-  margin-bottom:10px;
-  margin-top:10px;
-  text-shadow:rgba(0, 0, 0, 10) 0px 1px 1px;
-  background:linear-gradient(#75B760,#51823f);
-  border-radius:5px;
-  height:39px;
+.btnsignup {
+    font-size: 18px;
+    background-color: rgb(105, 167, 78);
+    border: 1px solid rgb(59, 110, 34);
+    color: white;
+    padding: 10px;
+    width: 194px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-shadow: rgba(0, 0, 0, 10) 0px 1px 1px;
+    background: linear-gradient(#75B760, #51823f);
+    border-radius: 5px;
+    height: 39px;
 }
 
-.daftarpage{
-  margin-top: 20px;
-  font-family:Helvetica;
-  color:rgb(102, 102, 102);
-  font-size:13px;
-  font-weight: bold;
+.daftarpage {
+    margin-top: 20px;
+    font-family: Helvetica;
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+    font-weight: bold;
 }
 
 /*FOOTER*/
-#footer{
-  padding-left: 8%;
-  padding-right: 8%;
-  margin-top:10px;
-  height: 80px;
-  background:white
-  font-family:Helvetica, Arial, sans-serif;
+#footer {
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 10px;
+    height: 80px;
+    background: white;
+    font-family: Helvetica, Arial, sans-serif;
 }
-
-
 
 /*clear fix*/
 .cf:before,
@@ -252,6 +254,4 @@ a{
 
 .cf {
     *zoom: 1;
-        }
-      }
-    }
+}
